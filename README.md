@@ -16,7 +16,7 @@
 ## How to run
 
 ```bash
-git clone https://bitbucket.org/siemplifyproserv/jinjarendereronline.git
+git clone https://github.com/rbecker911/jinjarendereronline/jinjarendereronline.git
 cd ./jinjarendereronline
 docker build --rm -t jinja-renderer .
 docker run -d --name jinja -p 8089:8000/tcp jinja-renderer
