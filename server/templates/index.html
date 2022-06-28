@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Template Engine</title>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Loading.css') }}" type="text/css">
+</head>
+
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div class="ipl-progress-indicator" id="ipl-progress-indicator">
+    <div class="ipl-progress-indicator-head">
+        <div class="first-indicator"></div>
+        <div class="second-indicator"></div>
+    </div>
+    <div class="insp-logo-frame">
+        <img class="insp-logo-frame-img" src="static/img/Background.png" alt="jinjaLogo"/>
+    </div>
+</div>
+<div id="root">
+</div>
+<script
+        type="text/javascript"
+        src="{{ url_for('static', filename='dist/main.bundle.js') }}">
+</script>
+</body>
+</html>

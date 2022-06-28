@@ -1,0 +1,4 @@
+-[ ] Right sized siemplify renders
+-[ ] theme
+-[ ] loading bar
+-[ ] split components
